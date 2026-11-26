@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 300" width="1240" height="300" font-family="-apple-system, 'Segoe UI', 'DM Sans', Helvetica, Arial, sans-serif">
+  <rect width="1240" height="300" fill="#F5F3EE"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6B6B6B"/></marker>
+  </defs>
+  <text x="24" y="34" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="13" letter-spacing="2" fill="#6B6B6B">TENNISVISION · FROM BROADCAST VIDEO TO SHOT-BY-SHOT DATA</text>
+  <g font-size="15">
+    <g transform="translate(24,64)">
+      <rect width="150" height="150" fill="#FFFFFF" stroke="#1A1A1A"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#6B6B6B">01</text>
+      <text x="14" y="56" font-weight="600" fill="#1A1A1A">Scenes</text>
+      <text x="14" y="82" font-size="13" fill="#4A4A4A">shot cuts; keep the</text>
+      <text x="14" y="100" font-size="13" fill="#4A4A4A">main camera, read</text>
+      <text x="14" y="118" font-size="13" fill="#4A4A4A">the scoreboard (OCR)</text>
+    </g>
+    <g transform="translate(198,64)">
+      <rect width="150" height="150" fill="#FFFFFF" stroke="#C0522A" stroke-width="2"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#C0522A">02 · neural</text>
+      <text x="14" y="56" font-weight="600" fill="#1A1A1A">Players</text>
+      <text x="14" y="82" font-size="13" fill="#4A4A4A">transformer detector,</text>
+      <text x="14" y="100" font-size="13" fill="#4A4A4A">players vs officials,</text>
+      <text x="14" y="118" font-size="13" fill="#4A4A4A">feet → court metres</text>
+    </g>
+    <g transform="translate(372,64)">
+      <rect width="150" height="150" fill="#FFFFFF" stroke="#C0522A" stroke-width="2"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#C0522A">03 · neural</text>
+      <text x="14" y="56" font-weight="600" fill="#1A1A1A">Court</text>
+      <text x="14" y="82" font-size="13" fill="#4A4A4A">14 keypoints, trained</text>
+      <text x="14" y="100" font-size="13" fill="#4A4A4A">from scratch →</text>
+      <text x="14" y="118" font-size="13" fill="#4A4A4A">camera per frame</text>
+    </g>
+    <g transform="translate(546,64)">
+      <rect width="150" height="150" fill="#FFFFFF" stroke="#C0522A" stroke-width="2"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#C0522A">04 · neural</text>
+      <text x="14" y="56" font-weight="600" fill="#1A1A1A">Ball</text>
+      <text x="14" y="82" font-size="13" fill="#4A4A4A">heatmap CNN, full</text>
+      <text x="14" y="100" font-size="13" fill="#4A4A4A">frame + native-res</text>
+      <text x="14" y="118" font-size="13" fill="#4A4A4A">window, no jumps</text>
+    </g>
+    <g transform="translate(720,64)">
+      <rect width="150" height="150" fill="#FFFFFF" stroke="#C0522A" stroke-width="2"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#C0522A">05 · neural</text>
+      <text x="14" y="56" font-weight="600" fill="#1A1A1A">Events</text>
+      <text x="14" y="82" font-size="13" fill="#4A4A4A">video + audio network</text>
+      <text x="14" y="100" font-size="13" fill="#4A4A4A">proposes shots and</text>
+      <text x="14" y="118" font-size="13" fill="#4A4A4A">bounces, per frame</text>
+    </g>
+    <g transform="translate(894,64)">
+      <rect width="150" height="150" fill="#FFFFFF" stroke="#1A1A1A"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#6B6B6B">06</text>
+      <text x="14" y="56" font-weight="600" fill="#1A1A1A">Rules &amp; physics</text>
+      <text x="14" y="82" font-size="13" fill="#4A4A4A">rule-aware decoder;</text>
+      <text x="14" y="100" font-size="13" fill="#4A4A4A">3D flight with gravity,</text>
+      <text x="14" y="118" font-size="13" fill="#4A4A4A">drag and spin</text>
+    </g>
+    <g transform="translate(1068,64)">
+      <rect width="150" height="150" fill="#1A1A1A"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#C9C4B8">07</text>
+      <text x="14" y="56" font-weight="600" fill="#F5F3EE">Analytics</text>
+      <text x="14" y="82" font-size="13" fill="#D8D3C8">shot speed, serve,</text>
+      <text x="14" y="100" font-size="13" fill="#D8D3C8">placement, depth,</text>
+      <text x="14" y="118" font-size="13" fill="#D8D3C8">movement, in / out</text>
+    </g>
+  </g>
+  <g stroke="#6B6B6B" stroke-width="1.5" marker-end="url(#a)">
+    <line x1="176" y1="139" x2="196" y2="139"/><line x1="350" y1="139" x2="370" y2="139"/><line x1="524" y1="139" x2="544" y2="139"/>
+    <line x1="698" y1="139" x2="718" y2="139"/><line x1="872" y1="139" x2="892" y2="139"/><line x1="1046" y1="139" x2="1066" y2="139"/>
+  </g>
+  <text x="24" y="252" font-size="13" fill="#6B6B6B">Output per point: every shot and bounce with its time, player, stroke and speed; the ball in 3D and both players in court metres at 50 fps.</text>
+  <text x="24" y="274" font-size="13" fill="#6B6B6B">Four neural stages feed a layer of tennis rules and physics written for this problem; nothing is interpolated between events.</text>
+</svg>
